@@ -1,34 +1,3 @@
-
-Click here to enable desktop notifications for Gmail.   Learn more  Hide
-  More 
-14 of 103
- 
-Fwd: Notes 
-Inbox
-x 
-
-Tega Esi		Attachments11/10/16
----------- Forwarded message ---------- From: <tega.x.esi@us.hsbc.com> Date: ...
-5 older messages
-
-Tega Esi		Attachments11/10/16
----------- Forwarded message ---------- From: <tega.x.esi@us.hsbc.com> Date: ...
-
-Tega Esi <tegae1@gmail.com>
-Attachments11/10/16
-to me 
-
-10 Attachments
-
-Anti-virus warning - 10 attachments contain a virus or blocked file. Downloading these attachments is disabled. Learn more
-	
-Click here to Reply or Forward
-0.17 GB (1%) of 15 GB used
-Manage
-Terms - Privacy
-Last account activity: 3 days ago
-Details
-
 // Retrieve attribute value from RTC and map it to another RTC attribute.
 
 dojo.provide("Gen.workitems.providers.CompareTeamAreaWithState");
@@ -77,6 +46,11 @@ dojo.declare("Gen.workitems.providers.CompareTeamAreaWithState", null, {
         	DisplayValue = "Level 3";
 
         
+       if (((state == "Service_Request_Workflow.state.s11") || (state == "Service_Request_Workflow.state.s12")) && ((filedagainst == "_wvgn0OxQEeWx77I6URsLIA") || (filedagainst == "_yhydwOxQEeWx77I6URsLIA"))) //level 4 
+
+          
+        	DisplayValue = "Level 4";
+
 	else
 		
 		
