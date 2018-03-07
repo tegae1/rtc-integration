@@ -225,7 +225,7 @@ dojo.declare("Gen.workitems.providers.CompareTeamAreaWithState", null, {
 	else
 		
 		
-	if ((state == "User_Access_Workflow.state.s1") || (state == "User_Access_Workflow.state.s3")  || (state == "User_Access_Workflow.state.s8")  || (state == "User_Access_Workflow.state.s9"))//Other States 
+	if ((state == "User_Access_Workflow.state.s2") || (state == "User_Access_Workflow.state.s3")  || (state == "User_Access_Workflow.state.s8")  || (state == "User_Access_Workflow.state.s9"))//Other States 
 
           
         	DisplayValue = "Other States";
